@@ -30,9 +30,9 @@ void setup() {
 void loop() {
   if (!movedToDummy) {
 
-    int dummyPanAngle = 10;
-    int dummyDistance = 60;          // horizontal distance in cm
-    const float servoHeight = 20.0;  // height above ground in cm
+    int dummyPanAngle = 10;          // Dummy pan angle
+    int dummyDistance = 60;          // Dummy horizontal distance in cm
+    const float servoHeight = 20.0;  // Height offset above ground in cm
 
     // Limit pan angle
     dummyPanAngle = constrain(dummyPanAngle, 0, 180);
