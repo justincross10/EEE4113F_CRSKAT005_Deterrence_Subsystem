@@ -84,7 +84,7 @@ void loop() {
     Serial.println("Returning to neutral position (90°, 90°).");
 
     movedToDummy = false;  // Reset for another test cycle
-    delay(2000);           // Optional: pause before next cycle starts
+    delay(2000);           // Pause before next cycle starts
   }
 
   delay(100);
